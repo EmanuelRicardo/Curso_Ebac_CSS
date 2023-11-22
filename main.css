@@ -13,6 +13,21 @@ header li {
     margin: 0 auto 0 auto;
 }
 
-section 
+.articles {
+    display: flex;
+    justify-content: space-between;
+
+
+} 
+
+.articles article img {
+    width: 180px;
+
+} 
+
+.articles article {
+    width: 300px;
+}
+
 
 
