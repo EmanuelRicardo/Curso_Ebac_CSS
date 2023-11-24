@@ -28,6 +28,11 @@ header li {
     color: aliceblue;
 }
 
+.container h2 {
+    font-size: 38px;
+    padding-bottom: 7px;
+}
+
 .articles {
     display: flex;
     justify-content: space-between;
@@ -52,6 +57,7 @@ section {
 .articles article h3 {
     padding-top: 8px;
     padding-bottom: 8px;
+    font-size: 25px;
 }
 
 .articles article a {
@@ -59,10 +65,13 @@ section {
     color: aliceblue;
     padding-top: 3px;
     padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .articles article p {
     padding-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
