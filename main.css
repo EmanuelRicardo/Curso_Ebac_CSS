@@ -4,6 +4,14 @@
     padding: 0;
 }
 
+main > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+}
+header .container {
+    display: flex;
+}
+
 header li {
     display:inline;
 }
@@ -28,6 +36,30 @@ header li {
 .articles article {
     width: 300px;
 }
+
+section {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.articles article h3 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.articles article a {
+    background-color:blue  ;
+    color: aliceblue;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+
+.articles article p {
+    padding-bottom: 8px;
+}
+
+
+
 
 
 
