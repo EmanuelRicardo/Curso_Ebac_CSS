@@ -67,11 +67,33 @@ section {
     padding-bottom: 5px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    font-weight:bolder;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
 }
 
 .articles article p {
     padding-bottom: 8px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#esportes {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#esportes .container .articles article a {
+    background-color:#009432;
+    color: #000;
+}
+
+#economia {
+    background-color: #f8f59f;
+}
+
+#economia .container .articles article a {
+    background-color:chocolate;
 }
 
 
