@@ -7,6 +7,7 @@
 main > header {
     background-color: #2f3640;
     padding: 16px 0;
+    color:aliceblue;
 }
 header .container {
     display: flex;
@@ -19,6 +20,12 @@ header li {
 .container {
     width: 1366px;
     margin: 0 auto 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container a {
+    color: aliceblue;
 }
 
 .articles {
